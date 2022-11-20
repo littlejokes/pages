@@ -1,0 +1,52 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  animation: ruch;
+  animation-duration: 20000s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-color: rgb(24, 26, 27);
+  background-image: url(../img/bus.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: white;
+  font-family: archivo, sans-serif;
+  font-size: 1.6rem;
+  margin: 0 auto;
+  max-width: 100vw;
+  min-height: 95vh;
+}
+
+@keyframes ruch {
+  0% {
+    background-position: -4400px;
+  }
+  100% {
+    background-position: 3000000px;
+  }
+}
+
+h1 {
+  background-color: rgb(255, 174, 0);
+  border: 1px solid rgb(95, 62, 0);
+  border-radius: 20px;
+  color: rgb(0, 14, 85);
+  font-size: 12px;
+  margin: 5px auto 0 auto;
+  max-width: 95vw;
+  padding: 2px;
+  text-align: center;
+  width: 200px;
+}
+
+.poznan {
+  bottom: 5px;
+  left: 50%;
+  max-width: 90vw;
+  position: absolute;
+  right: 50%;
+  transform: translateX(-50%);
+}
