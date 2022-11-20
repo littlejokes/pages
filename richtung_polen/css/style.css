@@ -4,6 +4,7 @@ html {
 
 body {
   animation: ruch;
+  animation-delay: 2s;
   animation-duration: 20000s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
